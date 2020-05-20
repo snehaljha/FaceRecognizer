@@ -94,6 +94,8 @@ def mImageRec() :
         if k == ord('q'):
             cv2.destroyAllWindows()
             return
+    cv2.destroyAllWindows()
+    messagebox.showinfo('Info', 'Photo queue is ended')
 
 root = Tk()
 
